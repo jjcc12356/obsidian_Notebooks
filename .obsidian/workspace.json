@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实验操作步骤记录.md",
+                "file": "obsidian_Notebooks/实验操作步骤记录.md",
                 "mode": "source",
                 "source": false
               },
@@ -184,9 +184,10 @@
       "bases:新建数据库": false
     }
   },
-  "active": "26f0ac90b322f05a",
+  "active": "88457268f63d80e0",
   "lastOpenFiles": [
-    "实验操作步骤记录.md",
+    "obsidian_Notebooks/README.md",
+    "obsidian_Notebooks/实验操作步骤记录.md",
     "未命名"
   ]
 }
