@@ -7,7 +7,7 @@
   "displayYAMLFrontmatter": false,
   "linkStrippingBehaviour": "text",
   "highDPIDiagrams": true,
-  "pandoc": "E:\\通用文档转换器",
+  "pandoc": "E:\\通用文档转换器\\pandoc.exe",
   "pdflatex": null,
   "outputFolder": null,
   "extraArguments": "",
