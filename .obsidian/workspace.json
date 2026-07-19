@@ -43,7 +43,7 @@
               "state": {
                 "file": "数据与流程记录.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "数据与流程记录"
