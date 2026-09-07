@@ -147,3 +147,37 @@ function describeQuery(place, distance) {
 将代码逐步拆开看：
 ![[Pasted image 20260907110725.png]]
 定义函数只是准备好这段代码，调用时才会执行：
+```
+const message = describeQuery(facility, radius);
+
+console.log(message);
+```
+调用时，`facility` 传给 `place`，`radius` 传给 `distance`。如果半径为 1000，输出就是：
+[^4]
+
+[^4]: 查询新图书馆周围 1000 米内的设施
+这里的函数只是生成文字，还没有进行空间查询。`console.log()` 则把结果输出到浏览器开发者工具的 Console 中，是查看程序运行情况的常用方式。
+最后，把它接到 Vue 的按钮上：
+```
+<template>
+  <button @click="handleQuery">查询周边设施</button>
+</template>
+
+<script setup>
+const facility = {
+  name: '图书馆',
+  coordinates: [116.40, 39.90]
+};
+
+const radius = 500;
+
+function describeQuery(place, distance) {
+  return `查询${place.name}周围 ${distance} 米内的设施`;
+}
+
+function handleQuery() {
+  const message = describeQuery(facility, radius);
+  console.log(message);
+}
+</script>
+```
