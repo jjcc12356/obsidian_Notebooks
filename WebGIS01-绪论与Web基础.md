@@ -79,15 +79,21 @@ app.mount('#app');
 <template>
   <!-- 界面：放按钮、文字、地图容器等 -->
 </template>
+
+<script setup>
+// 逻辑：保存数据、响应点击、调用地图功能等`
+</script>
+
+<style scoped>
+/* 样式：设置大小、颜色、布局等 */
+</style>
 ```
 <template>
   <!-- 界面：放按钮、文字、地图容器等 -->
 </template>
 
 
-`<style scoped>`
-`/* 样式：设置大小、颜色、布局等 */`
-`</style>`
+
 
 
 
