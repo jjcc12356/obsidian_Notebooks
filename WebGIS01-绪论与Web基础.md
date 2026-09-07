@@ -38,3 +38,4 @@ WebGIS就是通过浏览器Browser使用地理信息系统。不仅能显示地�
 	├── .prettierrc          格式化配置
 	├── vite.config.js      构建与开发配置
 	└── package.json        依赖与脚本
+技术栈为**Vue 3 + Vite + JavaScript + Ant Design Vue + Pinia + Vue Router + Axios**。已接入路由、状态管理、组件自动导入，以及携带 Token 的请求封装；首页目前是按钮和接口地址测试页面。
