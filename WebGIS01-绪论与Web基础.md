@@ -51,3 +51,17 @@ WebGIS就是通过浏览器Browser使用地理信息系统。不仅能显示地�
 	src/router/index.js   根据网址选择页面
 	    ↓
 	src/views/home/index.vue   显示首页内容
+ `main.js` 是：
+```
+import { createApp } from 'vue';
+import App from './App.vue';
+import router from './router';
+import pinia from './store';
+
+const app = createApp(App);
+
+app.use(pinia);
+app.use(router);
+
+app.mount('#app');
+```
