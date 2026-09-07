@@ -145,10 +145,5 @@ function describeQuery(place, distance) {
 }
 ```
 将代码逐步拆开看：
-|代码|含义|
-|---|---|
-|`function describeQuery`|定义一个名为 `describeQuery` 的函数|
-|`(place, distance)`|接收两个参数，作为函数内部使用的变量|
-|`{ ... }`|函数执行的代码|
-|`return`|把结果返回给调用者|
-|反引号中的 `${...}`|把变量或表达式的值插入字符串|
+![[Pasted image 20260907110725.png]]
+定义函数只是准备好这段代码，调用时才会执行：
