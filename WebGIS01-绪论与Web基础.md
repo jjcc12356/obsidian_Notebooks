@@ -19,3 +19,22 @@ WebGIS就是通过浏览器Browser使用地理信息系统。不仅能显示地�
 | Pinia          | 保存选中图层、当前要素等共享状态  |
 | Axios          | 向服务端请求数据          |
 | 尚未接入的地图引擎      | 绘制地图，处理缩放、平移和地图点击 |
+当前的项目的前端架构包括：
+[^2]
+
+[^2]: webgis-app/
+	├── public/             静态资源
+	├── src/
+	│   ├── api/request.js  Axios 请求封装
+	│   ├── assets/         图片等资源
+	│   ├── components/     公共组件
+	│   ├── router/         路由配置
+	│   ├── store/          Pinia 状态管理入口
+	│   ├── views/home/     首页
+	│   ├── App.vue         路由视图入口
+	│   └── main.js         应用初始化
+	├── .env*               环境配置
+	├── .eslintrc.cjs        代码检查配置
+	├── .prettierrc          格式化配置
+	├── vite.config.js      构建与开发配置
+	└── package.json        依赖与脚本
