@@ -135,3 +135,6 @@ facility.coordinates;   // [116.40, 39.90]
 facility.coordinates[0]; // 116.40
 ```
 注意，`const` 限制的是**重新给变量赋值**，并不禁止修改对象内部的属性：
+```
+facility.name = '新图书馆'; // 可以
+```
