@@ -138,3 +138,17 @@ facility.coordinates[0]; // 116.40
 ```
 facility.name = '新图书馆'; // 可以
 ```
+有了数据，再写一个处理数据的函数。我们先做最简单的事：生成查询说明。
+```
+function describeQuery(place, distance) {
+  return `查询${place.name}周围 ${distance} 米内的设施`;
+}
+```
+将代码逐步拆开看：
+|代码|含义|
+|---|---|
+|`function describeQuery`|定义一个名为 `describeQuery` 的函数|
+|`(place, distance)`|接收两个参数，作为函数内部使用的变量|
+|`{ ... }`|函数执行的代码|
+|`return`|把结果返回给调用者|
+|反引号中的 `${...}`|把变量或表达式的值插入字符串|
