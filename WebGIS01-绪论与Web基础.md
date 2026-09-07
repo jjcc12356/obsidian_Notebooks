@@ -39,4 +39,15 @@ WebGIS就是通过浏览器Browser使用地理信息系统。不仅能显示地�
 	├── vite.config.js      构建与开发配置
 	└── package.json        依赖与脚本
 技术栈为**Vue 3 + Vite + JavaScript + Ant Design Vue + Pinia + Vue Router + Axios**。已接入路由、状态管理、组件自动导入，以及携带 Token 的请求封装；首页目前是按钮和接口地址测试页面。
-程序是怎么运行的，打开网页时
+程序是怎么运行的，打开网页时，文件之间的配合：
+[^3]
+
+[^3]: index.html       提供网页和挂载位置
+	    ↓
+	src/main.js     创建并启动 Vue 应用
+	    ↓
+	src/App.vue     提供页面的整体入口
+	    ↓
+	src/router/index.js   根据网址选择页面
+	    ↓
+	src/views/home/index.vue   显示首页内容
