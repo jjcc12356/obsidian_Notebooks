@@ -181,3 +181,16 @@ function handleQuery() {
 }
 </script>
 ```
+`@click="handleQuery"` 是 Vue 的写法，意思是：**用户点击这个按钮时，执行 `handleQuery` 函数。**
+因此，这段程序的运行过程是：
+[^5]
+
+[^5]: 点击按钮
+	   ↓
+	执行 handleQuery()
+	   ↓
+	调用 describeQuery(facility, radius)
+	   ↓
+	返回说明文字，保存到 message
+	   ↓
+	在控制台输出 message
