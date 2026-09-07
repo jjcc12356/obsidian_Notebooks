@@ -74,8 +74,20 @@ app.mount('#app');
 | `createApp(App)`    | 调用函数，将 `App` 作为参数传入 | 以 `App.vue` 为根组件创建应用          |
 | `app.mount('#app')` | 调用对象提供的方法           | 把应用挂载到 HTML 中 `id="app"` 的元素上 |
 `.vue`文件。Vue把一个界面组件通常分成三部分：
-```
 
 ```
+<template>
+  <!-- 界面：放按钮、文字、地图容器等 -->
+</template>
+```
+<template>
+  <!-- 界面：放按钮、文字、地图容器等 -->
+</template>
+
+
+`<style scoped>`
+`/* 样式：设置大小、颜色、布局等 */`
+`</style>`
+
 
 
