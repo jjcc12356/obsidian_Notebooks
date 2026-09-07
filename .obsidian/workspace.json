@@ -94,7 +94,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Browser",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -115,7 +115,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -225,7 +226,7 @@
       "bases:新建数据库": false
     }
   },
-  "active": "cd30509fa5a81df4",
+  "active": "cd7841b8a21e8506",
   "lastOpenFiles": [
     "我国地形图的注意事项.md",
     "WebGIS01-绪论与Web基础.md",
