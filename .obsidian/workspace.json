@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "202330052048_崔佳昊_第1次随堂作业"
             }
+          },
+          {
+            "id": "16495d29210f693a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "机器学习——李宏毅2021.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "机器学习——李宏毅2021"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -186,14 +201,22 @@
       "bases:新建数据库": false
     }
   },
-  "active": "7a663f2b77807950",
+  "active": "16495d29210f693a",
   "lastOpenFiles": [
-    "AI第一次随堂作业.md",
+    "度量地理分布.md",
     "202330052048_崔佳昊_第1次随堂作业.md",
+    "基础训练01-数据编辑.md",
+    "基础训练02 高级数据编辑.md",
+    "计算机图形学01.md",
+    "技术文档编写注意事项.md",
+    "人工智能及其应用.md",
+    "实验流程记录.md",
+    "数据与流程记录.md",
+    "未命名 1",
+    "AI第一次随堂作业.md",
     "obsidian_Notebooks/练习自查.md",
     "我国地形图的注意事项.md",
     "WebGIS01-绪论与Web基础.md",
-    "计算机图形学01.md",
     "Pasted image 20260908155833.png",
     "Pasted image 20260908152539.png",
     "Pasted image 20260908151014.png",
@@ -201,18 +224,12 @@
     "Pasted image 20260908150022.png",
     "Pasted image 20260907110725.png",
     "未命名",
-    "度量地理分布.md",
     "未命名.canvas",
     "机器学习——李宏毅2021.md",
     "Pasted image 20260809174626.png",
     "Pasted image 20260809174612.png",
     "Pasted image 20260809174557.png",
     "Pasted image 20260809174406.png",
-    "数据与流程记录.md",
-    "基础训练01-数据编辑.md",
-    "基础训练02 高级数据编辑.md",
-    "技术文档编写注意事项.md",
-    "实验流程记录.md",
     "GIS练习100例.md",
     "GIthub新手教程.md",
     "obsidian_Notebooks/实验操作步骤记录.md",
