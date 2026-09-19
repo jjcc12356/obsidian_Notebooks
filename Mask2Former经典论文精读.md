@@ -49,3 +49,5 @@ MaskFormer(NeurIPS 2021)提出关键问题：图像分割任务，能否被重�
 在复杂场景的实例分割任务中，MaskFormer的核心指标明显落后于同期主流的MaskR-CNN系列算法。面对物体重叠、遮挡等复杂情况时，实例间特征易产生混淆，模型难以精准区分不同目标的边界与归属，限制了实际应用表现。
 # MasksFormer
 ![[Pasted image 20260919152752.png]]
+# 核心创新点1——Masked Attention
+本质上j
