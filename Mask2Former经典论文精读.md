@@ -53,4 +53,7 @@ MaskFormer(NeurIPS 2021)提出关键问题：图像分割任务，能否被重�
 本质上是一种迭代修正机制——先全图搜索，再依据上一层Msak逐步聚焦目标。
 ![[Pasted image 20260919153208.png]]
 ![[Pasted image 20260919153220.png]]
-就上Querygeng'jia
+就上Query更加将聚焦于前景
+## Masked Attention数学形式
+核心：在标准 attention logits 上加入由上一层 mask 产生的约束项M，使 query 只能聚合前景信息。
+![[Pasted image 20260919153358.png]]
