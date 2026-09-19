@@ -80,3 +80,11 @@ MaskFormer(NeurIPS 2021)提出关键问题：图像分割任务，能否被重�
 解码器最后一层直接输出N个(Mask,Class)二元组。每个结果独立对应场景中的一个物体实例，包含精确的掩码区域与类别预测，无需额外的后处理步骤即可完成分割。
 # 实验结果一——全景分割SOTA
 ![[Pasted image 20260919154618.png]]
+![[Pasted image 20260919154637.png]]
+更少的训练次数
+# 消融试验
+![[Pasted image 20260919154707.png]]
+![[Pasted image 20260919154715.png]]
+![[Pasted image 20260919154724.png]]
+![[Pasted image 20260919154730.png]]
+![[Pasted image 20260919154737.png]]
