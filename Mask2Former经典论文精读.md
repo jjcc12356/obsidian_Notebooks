@@ -60,3 +60,6 @@ MaskFormer(NeurIPS 2021)提出关键问题：图像分割任务，能否被重�
 ![[Pasted image 20260919153424.png]]
 
 关键理解：M来自上一层的mask 预测，因此Masked Attention 本质上是一个迭代修正机制——用更好的mask 计算更好的attention。
+# 核心创新点2——多尺度Deformable解码器
+
+![[Pasted image 20260919153702.png]]
