@@ -65,3 +65,5 @@ MaskFormer(NeurIPS 2021)提出关键问题：图像分割任务，能否被重�
 ![[Pasted image 20260919153702.png]]
 重点：多尺度是检测/分割中的核心思想；Mask2Former 将FPN与 Deformable Attention 结合，让解码器既能处理小目标，又能控制计算成本。
 # 解码器层结构
+核心：每层解码器都执行3步一一query先彼此交互，再与多尺度特征交互，最后经过FFN；层末更新mask，作为下一层的约束M。
+![[Pasted image 20260919154005.png]]
