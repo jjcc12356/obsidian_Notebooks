@@ -57,3 +57,4 @@ MaskFormer(NeurIPS 2021)提出关键问题：图像分割任务，能否被重�
 ## Masked Attention数学形式
 核心：在标准 attention logits 上加入由上一层 mask 产生的约束项M，使 query 只能聚合前景信息。
 ![[Pasted image 20260919153358.png]]
+![[Pasted image 20260919153424.png]]
