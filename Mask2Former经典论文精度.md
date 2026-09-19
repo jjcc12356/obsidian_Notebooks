@@ -28,4 +28,9 @@ Semantic Segmentation
 # 前序工作——MaskFormer
 MaskFormer(NeurIPS 2021)提出关键问题：图像分割任务，能否被重新定义为“mask classification（掩码分类）？这一视角推动了分割范式转变。
 ## 传统范式：逐像素分类
-![[Pasted image 20260919151930.png]]、
+![[Pasted image 20260919151930.png]]
+- 对每个像素独立预测类别
+- 输出H×W类别图
+- 容易割裂目标整体性
+局限在yu
+![[Pasted image 20260919151958.png]]
