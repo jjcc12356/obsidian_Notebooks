@@ -40,3 +40,4 @@ MaskFormer(NeurIPS 2021)提出关键问题：图像分割任务，能否被重�
 优势：统一、整体建模
 ![[Pasted image 20260919151958.png]]
 核心洞察：MaskFormer将分割问题从像素级分类，转化为基于掩码集合的统一预测问题。
+# MaskFormer的痛点——为什么SOTA不到
