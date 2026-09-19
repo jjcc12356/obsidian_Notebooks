@@ -26,3 +26,6 @@ Semantic Segmentation
 ![[Pasted image 20260919151645.png]]
 论文目标：Mask2Former实现了“架构通用”与权重通用”，而更高阶的“训练流程通用」则由后续的OneFormer完成。
 # 前序工作——MaskFormer
+MaskFormer(NeurIPS 2021)提出关键问题：图像分割任务，能否被重新定义为“mask classification（掩码分类）？这一视角推动了分割范式转变。
+## 传统范式：逐像素分类
+![[Pasted image 20260919151930.png]]、
