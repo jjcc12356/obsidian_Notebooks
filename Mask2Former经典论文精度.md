@@ -11,3 +11,14 @@ Semantic Segmentation
 - 不区分同类个体。
 ![[Pasted image 20260919151347.png]]
 ## 实例分割：
+代表架构：Mask R-CNN、SOLO
+- 在识别类别的同时，区分不同目标实例。
+- 适用于自动驾驶、质检等个体级任务。
+![[Pasted image 20260919151445.png]]
+## 全景分割
+代表架构：Panoptic FPN、UPSNet
+统一建模前景实例与
+背景类别。
+追求更完整、精细的
+场景解析。
+![[Pasted image 20260919151453.png]]
