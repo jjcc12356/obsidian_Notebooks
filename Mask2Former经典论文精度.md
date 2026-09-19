@@ -24,4 +24,5 @@ Semantic Segmentation
 不同任务往往依赖独立模型与部署流程，算法迁移困难、工程维护复杂，造成资源分散与成本升高。
 # 作者动机——通用分割的诉求
 ![[Pasted image 20260919151645.png]]
-论文目标：Mask2Former实现了“架构通用”与「权重通用”，而更高阶的“训练流程通用」则由后续的OneFormer完成。
+论文目标：Mask2Former实现了“架构通用”与权重通用”，而更高阶的“训练流程通用」则由后续的OneFormer完成。
+# 前序工作——MaskFormer
