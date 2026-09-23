@@ -111,12 +111,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "标注管理/01-人员名单.md",
+                "file": "Mask2Former论文知识管理/第一阶段要掌握的知识.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-人员名单"
+              "title": "第一阶段要掌握的知识"
             }
           }
         ],
@@ -287,11 +287,13 @@
   },
   "active": "42d77db3686e7d05",
   "lastOpenFiles": [
+    "标注管理/01-人员名单.md",
+    "Mask2Former论文知识管理/第一阶段要掌握的知识.md",
+    "Mask2Former论文知识管理",
     "标注管理/00-提交记录面板.md",
     "标注管理/99-模板/每日标注记录模板.md",
     "标注管理/03-任务截图/使用说明.md",
     "标注管理/02-每日记录/使用说明.md",
-    "标注管理/01-人员名单.md",
     "大创任务分工.md",
     "标注管理/99-模板",
     "标注管理/03-任务截图",
@@ -329,10 +331,8 @@
     "Pasted image 20260919154224.png",
     "Pasted image 20260919154127.png",
     "Pasted image 20260919154005.png",
-    "Python/图表制作练习1.md",
     "Python",
     "未命名 2",
-    "未命名 1",
-    "未命名"
+    "未命名 1"
   ]
 }
