@@ -1,5 +1,6 @@
 [
   "obsidian-git",
   "obsidian-pandoc",
-  "dataview"
+  "dataview",
+  "transfer-latex-from-gpt-fix"
 ]
