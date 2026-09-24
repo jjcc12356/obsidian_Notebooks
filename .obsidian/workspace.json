@@ -111,12 +111,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大创任务分工.md",
+                "file": "标注管理/01-人员名单.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "大创任务分工"
+              "title": "01-人员名单"
             }
           }
         ],
@@ -288,15 +288,15 @@
   },
   "active": "42d77db3686e7d05",
   "lastOpenFiles": [
-    "Mask2Former论文知识管理/第一阶段要掌握的知识.md",
-    "Pasted image 20260923105622.png",
-    "标注管理/01-人员名单.md",
-    "Mask2Former论文知识管理",
     "标注管理/00-提交记录面板.md",
     "标注管理/99-模板/每日标注记录模板.md",
     "标注管理/03-任务截图/使用说明.md",
     "标注管理/02-每日记录/使用说明.md",
     "大创任务分工.md",
+    "Mask2Former论文知识管理/第一阶段要掌握的知识.md",
+    "Pasted image 20260923105622.png",
+    "标注管理/01-人员名单.md",
+    "Mask2Former论文知识管理",
     "标注管理/99-模板",
     "标注管理/03-任务截图",
     "标注管理/02-每日记录",
