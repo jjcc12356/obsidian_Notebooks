@@ -275,6 +275,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "transfer-latex-from-gpt-fix:Convert formulas from chatgpt": false,
       "obsidian-git:Open Git source control": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
